@@ -1,13 +1,136 @@
-/* Navbar */
+
 html {
-    display: block;
+    font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background-color: #6DA0A6;
+}
+
+/* Header */
 .header {
+    background-color: #A8BDBF;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+/* Navbar */
+li {
+    display: inline;
+    float: right;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+li a:link {
+    text-decoration: none;
+}
+
+li a:visited {
+    text-decoration: none;
+    color: #2a3f42;
+}
+
+li a:hover {
+    color: black;
+}
+
+/* Footer */
+.footer {
+    background-color: #A8BDBF;
+    text-align: center;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+.footer-bottom {
+    background-color: #A8BDBF;
+    text-align: center;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+/* Landing Page */
+.paragraph {
+    color: #142611;
+    font-size: 5em;
+    position: relative;
+    top: .05px;
+}
+
+.coaster-image {
+    float: right;
+    position: absolute;
+    top: 220px;
+    right: 0px;
+}
+
+/* About Page */
+.trevor1, .p1{
+    float: left;
     display: inline;
 }
 
-.trevor1 {
-    width: 10%;
-    height: 20%;
+.p1 {
+    width: 500px;
+}
+
+.time-2 {
+    float: right;
+    display: inline;
+    clear: both;
+}
+
+.p2 {
+    width: 500px;
+    float: left;
+}
+
+.robotics, .p3 {
+    float: left;
+    display: inline;
+    clear: both;
+}
+
+.p3 {
+    width: 500px;
+}
+
+/* Hobbies */
+.column1,h2, .trains {
+    float: left;
+    width: 350px;
+    margin: 10px;
+    text-align: center;
+}
+
+.column2 {
+    float: left;
+    width: 350px;
+    margin: 10px;
+    text-align: center;
+}
+
+.column3 {
+    float: left;
+    width: 350px;
+    margin: 10px;
+    text-align: center;
+}
+
+.column4 {
+    float: left;
+    width: 350px;
+    margin: 10px;
+    text-align: center;
 }
